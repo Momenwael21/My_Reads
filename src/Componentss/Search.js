@@ -6,7 +6,7 @@ import Book from "./Book";
 
 function Search(props) {
   let [resultBooks, setResultBooks] = useState([]);
-  let [query, setQuery] = useState("android");
+  let [query, setQuery] = useState("");
 
   let getQuery = (newQuery) => {
     newQuery = newQuery.trim().replace(/^s+/, "");
