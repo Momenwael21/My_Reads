@@ -3,7 +3,7 @@
 - [Overview](#overview)
 - [How to use](#how-to-use)
 - [How to run the project](#How-to-run-the-MyReads-project)
-- [Resources](#resources)
+- [Tools](#tools)
 
 ## Overview
 
@@ -17,7 +17,7 @@ the first page you will find, in this page you can categorize your books into th
 Search Page:
 in this page you can search about any book and add it to any specific shelf from your shelves in main book, and finally you can come back to the main page
 
-## Resources
+## Tools
 
 - HTML, CSS style and API is provided by Udacity
 
