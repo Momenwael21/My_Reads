@@ -19,7 +19,9 @@ function Book(props) {
             <select
               className="shelf"
               value={props.currentShelf}
-              onChange={(e) => props.changeShelf(props.book, e.target.value)}
+              onChange={(e) => {
+                props.changeShelf(props.book, e.currentTarget.value);
+              }}
             >
               <option value="chooseShelf" disabled>
                 Move to...

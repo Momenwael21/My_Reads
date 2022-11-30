@@ -2,8 +2,6 @@ import Book from "./Book";
 
 function Shelf(props) {
   let { title, books, value } = props;
-  console.log(books);
-  console.log(value);
   return (
     <div className="bookshelf">
       <h2 className="bookshelf-title">{title}</h2>

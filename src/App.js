@@ -8,12 +8,12 @@ import { useEffect, useState } from "react";
 function App() {
   let [books, setBooks] = useState([]);
   useEffect(() => {
-    getAll().then((books) => setBooks(books));
+    getAll().then((allBooks) => setBooks(allBooks));
   }, []);
 
   let changeShelf = (book, shelf) => {
     update(book, shelf);
-    getAll().then((books) => setBooks(books));
+    getAll().then((allBooks) => setBooks(allBooks));
   };
 
   return (
